@@ -48,6 +48,14 @@ $config = [
         */
     ],
     'params' => $params,
+    'modules' => [
+        'front' => [
+            'class' => 'app\modules\front\FrontModule',
+        ],
+        'backend' => [
+            'class' => 'app\modules\backend\BackendModule',
+        ],
+    ],
 ];
 if (YII_ENV_DEV) {
     // configuration adjustments for 'dev' environment
