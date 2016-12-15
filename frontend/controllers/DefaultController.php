@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\front\controllers;
+namespace app\frontend\controllers;
 
 use yii\web\Controller;
 
 /**
- * Default controller for the `test` module
+ * Default controller for the `frontend` module
  */
 class DefaultController extends Controller
 {

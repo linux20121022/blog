@@ -50,10 +50,10 @@ $config = [
     'params' => $params,
     'modules' => [
         'front' => [
-            'class' => 'app\modules\front\FrontModule',
+            'class' => 'app\frontend\FrontModule',
         ],
         'backend' => [
-            'class' => 'app\modules\backend\BackendModule',
+            'class' => 'app\backend\BackendModule',
         ],
     ],
 ];

@@ -1,16 +1,16 @@
 <?php
 
-namespace app\modules\backend;
+namespace app\backend;
 
 /**
- * test module definition class
+ * backend module definition class
  */
 class BackendModule extends \yii\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'app\modules\backend\controllers';
+    public $controllerNamespace = 'app\backend\controllers';
 
     /**
      * @inheritdoc

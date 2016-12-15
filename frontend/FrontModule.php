@@ -1,16 +1,16 @@
 <?php
 
-namespace app\modules\front;
+namespace app\frontend;
 
 /**
- * test module definition class
+ * frontend module definition class
  */
 class FrontModule extends \yii\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'app\modules\front\controllers';
+    public $controllerNamespace = 'app\frontend\controllers';
 
     /**
      * @inheritdoc
