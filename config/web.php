@@ -49,7 +49,7 @@ $config = [
     ],
     'params' => $params,
     'modules' => [
-        'front' => [
+        'frontend' => [
             'class' => 'app\frontend\FrontModule',
         ],
         'backend' => [
